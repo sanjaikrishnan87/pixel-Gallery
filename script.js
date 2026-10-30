@@ -1,4 +1,3 @@
-
 const photos = [
   {
     title: "Mountain Escape",
@@ -47,7 +46,7 @@ const photos = [
   }
 ];
 
-const gallery = document.getElementById("gallery");
+const gallery = document.getElementById("galleryGrid");
 const empty = document.getElementById("empty");
 const lightbox = document.getElementById("lightbox");
 const fullImage = document.getElementById("fullImage");
@@ -88,6 +87,7 @@ function renderGallery() {
     card.append(img, info);
 
     card.addEventListener("click", () => openLightbox(index));
+
     card.addEventListener("keydown", event => {
       if (event.key === "Enter" || event.key === " ") {
         event.preventDefault();

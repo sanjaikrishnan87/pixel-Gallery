@@ -12,6 +12,7 @@ Pixel Gallery is a simple and responsive image gallery website. It allows users 
 - Interactive image display
 - Lightbox image preview
 - Simple and user-friendly design
+- Easy navigation
 - HTML, CSS and JavaScript
 
 ## Technologies Used
